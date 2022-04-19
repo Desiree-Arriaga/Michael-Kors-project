@@ -102,6 +102,11 @@
             margin-left: 2%;
             padding: 2%;
         }
+        .top-line {
+            width: 40%;
+            padding-right: 5%;
+            padding-left: 0%;
+        }
     }
     
     h4 {
@@ -126,7 +131,7 @@
     }
     
     @media screen and (max-width: 600px) {
-        .video {
+        .grid-home .video {
             width: 92%;
             justify-content: center;
             margin-left: 4%;
