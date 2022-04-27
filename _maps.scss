@@ -1,0 +1,9 @@
+/**BODY'S STYLES**/
+
+$body-styles: ( just-body: center, Text-align: center, font-weight: bold);
+body {
+    justify-content: map-get($body-styles, just-body);
+    text-align: map-get($body-styles, Text-align);
+    font-family: "Montserrat", sans-serif;
+    font-weight: map-get($body-styles, font-weight);
+}
